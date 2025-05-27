@@ -1,10 +1,10 @@
 import javax.swing.*;
 
-public class CadastroPessoaSimples extends JFrame {
+public class Cadastro extends JFrame {
 
     private JPanel painel;
 
-    public CadastroPessoaSimples() {
+    public Cadastro() {
         super("Cadastro de Pessoa");
         inicializar();
     }
@@ -183,6 +183,6 @@ public class CadastroPessoaSimples extends JFrame {
     }
 
     public static void main(String[] args) {
-        new CadastroPessoaSimples();
+        new Cadastro();
     }
 }
